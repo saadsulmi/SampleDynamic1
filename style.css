@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 950px;
+    
+}
+.card{
+    transform-style: preserve-3d;
+    width: 17rem;
+    height: 80vh;
+    border-radius: 0.7em;
+    padding: 5px 20px;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.2),0 0px 20px rgba(0,0,0,0.2);
+    
+}
+.product .sneaker{
+    width: 120px;
+}
+
+.circle{
+position: absolute;
+margin: -132px 60px;
+width: 7rem;
+height: 7rem;
+border-radius: 50%;
+background: linear-gradient(rgba(245,70,60,0.8),rgba(0,0,0,0.2)) ;
+z-index: 0;
+translate:0 0 -10px;
+}
+
+.product{
+    min-height: 27vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s ease-out;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+h4{
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+img{
+    width: 50%;
+    z-index: 2;  
+}
+.btn0{
+    width: 23%;
+    height: 2.2em;
+    border: none;
+    background: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    font-size: 0.7em;
+    justify-content: space-between;
+    
+}
+.btn0:hover{
+    background: gray;
+}
+.purchase{
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    width: 80%;
+    height: 2.5em;
+    background: rgb(241, 83, 83);
+    border: none;
+    color: white;
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    font-size: 0.9em;
+    
+}
+.btn1:hover{
+    width: 80%;
+    height: 2.5em;
+    background: rgb(247, 27, 27);
+    border: none;
+    color: white;
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    font-size: 0.9em;
+    
+}
+.content{
+    transition: all 0.75s ease-out;
+}
