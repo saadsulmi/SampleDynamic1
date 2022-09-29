@@ -23,9 +23,9 @@ body{
 .card{
     transform-style: preserve-3d;
     width: 17rem;
-    height: 80vh;
+    height: 95vh;
     border-radius: 0.7em;
-    padding: 5px 20px;
+    padding: 18px 20px;
     box-shadow: 0 7px 20px rgba(0,0,0,0.2),0 0px 20px rgba(0,0,0,0.2);
     
 }
@@ -35,7 +35,7 @@ body{
 
 .circle{
 position: absolute;
-margin: -132px 60px;
+margin: -116px 60px;
 width: 7rem;
 height: 7rem;
 border-radius: 50%;
@@ -114,4 +114,27 @@ img{
 }
 .content{
     transition: all 0.75s ease-out;
+}
+@media (max-width:414px){
+
+.card{
+    transform-style: preserve-3d;
+    width: 17rem;
+    height: 95vh;
+    border-radius: 0.7em;
+    padding: 18px 20px;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.2),0 0px 20px rgba(0,0,0,0.2);
+    
+}
+
+.circle{
+position: absolute;
+margin: -147px 60px;
+width: 7rem;
+height: 7rem;
+border-radius: 50%;
+background: linear-gradient(rgba(245,70,60,0.8),rgba(0,0,0,0.2)) ;
+z-index: 0;
+translate:0 0 -10px;
+}
 }
