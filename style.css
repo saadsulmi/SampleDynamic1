@@ -137,4 +137,7 @@ background: linear-gradient(rgba(245,70,60,0.8),rgba(0,0,0,0.2)) ;
 z-index: 0;
 translate:0 0 -10px;
 }
+. product {
+min-height:21vh;
+}
 }
